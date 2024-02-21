@@ -1,0 +1,63 @@
+.conteiner{
+    height:500px;
+     background-color: black;
+     background: #0a007e center;
+    background-size: auto;
+    padding-bottom: 3rem;
+    background-image: linear-gradient(10deg, #ffaaaa 0%, #34b393 100%);
+}
+.navigator-div{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 1.5rem 0 1rem 0;
+}
+.logo{
+    font-size: 30px;
+    color: white;
+    size: 20px;
+}
+.li-nav{
+    display: inline-block;
+    color: white;
+    
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.jcs{
+    justify-content: flex-end;
+    display: inline-block;
+   
+}
+.navigator{
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px;
+    position: relative;
+    cursor: pointer;
+}
+.download{
+background-color:green;
+border-radius: 50px;
+color:white;
+padding: 0.25rem 1rem;
+}
+.slogan{
+    color: #00ffd4;
+    
+}
+.h1{
+    font-size: 3.2rem;
+    font-weight: 700px;
+    max-width: 950px;
+    letter-spacing:0.05rem;
+    font-family: 'poppins' serif;
+}
+.dialog{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 1.5rem 0 1rem 0;
+}
