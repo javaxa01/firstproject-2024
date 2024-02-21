@@ -1,5 +1,5 @@
 .conteiner{
-    height:500px;
+    height:520px;
      background-color: black;
      background: #0a007e center;
     background-size: auto;
@@ -63,7 +63,8 @@ padding: 0.25rem 1rem;
     padding: 1.5rem 0 1rem 0;
 }
 .p1{
-    font-size: 20px;
+    font-size: 15px;
+    width: 50%;
     margin: 10px 0 0 0;
 }
 .box{
@@ -80,4 +81,37 @@ padding: 0.25rem 1rem;
   color:rgb(33, 37, 37);
   width: 100px;
   background:#a19ebe;
+}
+.slogan1{
+    float: right;
+    /* size: 20px; */
+}
+.image1{
+    width: 75%;
+}
+.conteiner2{
+    background-color: antiquewhite;
+    height: 250px;
+    
+}
+.satauri{
+    font-weight: 200;
+    font-size: 1rem;
+    opacity: .5;
+    text-align: center;
+    border-bottom: 1px solid #bcb9b9;
+    margin: 0 auto 2rem;
+    text-align:center;
+    padding-top: 1.5rem;
+}
+.logoes{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    display: inline-block;
+    margin-right: 3.5rem;
+}
+.logoesdiv{
+    justify-content: center;
+    display: flex;
 }
