@@ -47,6 +47,7 @@ padding: 0.25rem 1rem;
 }
 .slogan{
     color: #00ffd4;
+    font-family: 'poppins', serif;
     
 }
 .h1{
@@ -60,4 +61,23 @@ padding: 0.25rem 1rem;
     max-width: 1280px;
     margin: 0 auto;
     padding: 1.5rem 0 1rem 0;
+}
+.p1{
+    font-size: 20px;
+    margin: 10px 0 0 0;
+}
+.box{
+    background: #a19ebe;
+    color: white;
+    width: 190px;
+    cursor: pointer;
+    letter-spacing:0.05rem;
+    padding: 0.9rem 1.5rem;
+    font-size: 20px;
+    transition: width 2s, height 4s;
+}
+.box:hover{
+  color:rgb(33, 37, 37);
+  width: 100px;
+  background:#a19ebe;
 }
