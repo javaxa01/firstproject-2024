@@ -76,19 +76,21 @@ padding: 0.25rem 1rem;
     margin: 10px 0 0 0;
 }
 .box{
-    background: #a19ebe;
-    color: white;
+    background: transparent;
+    color:white;
     width: 190px;
     cursor: pointer;
     letter-spacing:0.05rem;
     padding: 0.9rem 1.5rem;
+    font-weight: 200;
     font-size: 20px;
     transition: width 2s, height 4s;
+    border: 0.1rem solid #ffffff
 }
 .box:hover{
-  color:rgb(33, 37, 37);
+  color:rgb(248, 248, 248);
   width: 100px;
-  background:#f4f4f4;
+  background:#8d0e54;
 }
 .slogan1{
     float: right;
@@ -282,7 +284,7 @@ padding: 0.25rem 1rem;
   }
   .conteiner4{
     background-color: #271e8a;
-    height: 1200px;
+    height: 1100px;
 
   }
   .h4{
@@ -296,13 +298,12 @@ padding: 0.25rem 1rem;
     border-bottom: 1px solid #8e8484;
     margin: 0 auto 2rem;
     margin-top: 2%;
-    padding-top: 5%;
+    padding-top: 2%;
   }
   .paragraph1{
     font-size: 70px;
     font-weight: 700;
     text-align: center;
-    max-width: 1800px;
     color: #fff;
   }
   .spaniko{
@@ -337,7 +338,7 @@ padding: 0.25rem 1rem;
 
 .knopka{
   padding: 0.6rem 1rem;
-  background: #bf1b1b;
+  background: #030303;
   color: #fff;
   min-width: 220px;
   font-size: 25px;
@@ -348,9 +349,9 @@ padding: 0.25rem 1rem;
   transition: width 2s, height 4s;
 }
 .knopka:hover{
-  color:rgb(5, 212, 212);
+  color:rgb(255, 255, 255);
   width: auto;
-  background:#f4f4f4;
+  background:#7947e5;
 }
 .master{
   display: flex;
@@ -363,4 +364,105 @@ padding: 0.25rem 1rem;
 }
 .h700{
   font-weight: 700;
+}
+.tac{
+  text-align: center;
+}
+.h300{
+  font-weight: 300;
+}
+.conteiner5{
+  background-color:#a19ebe;
+  height: 460px;
+}
+.c1p{
+  font-weight: 200;
+  font-size: 1rem;
+  padding: 0.5rem 0 0.5rem 0;
+  opacity: .5;
+  text-align: center;
+  font-size: 20px;
+  color: #463b3b;
+  border-bottom: 1px solid #4d4c4c;
+  margin: 0 auto 2rem;
+  padding-top: 2%;
+
+}
+.dpjs{
+  display: flex;
+  justify-content: space-between;
+}
+.gdn{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 3%;
+}
+.musha{
+  width: 248px;
+}
+.john{
+  text-align: center;
+  color: #271e8a;
+  font-size: 20px;
+  margin-top: 1%;
+}
+.johnm{
+  margin-top: 1%;
+  text-align: center;
+}
+.conteiner6{
+  height:600px;
+  background-color: rgb(255, 255, 255);
+}
+.c1pa{
+  padding-top:2%;
+  align-items: center;
+}
+.mama{
+  align-items: center;
+}
+.ax{
+  text-align: center;
+}
+.fonts40p{
+  font-size: 70px;
+}
+.ght{
+  width: 50px;
+  background-color: white;
+  padding: 15px;
+  font-size: 20px;
+  border-color: black;
+  border: 0.05rem solid #000000
+}
+.lol{
+  margin-top: 2%;
+}
+.conteiner7{
+  height: 200px;
+  background-color: #0a007e;
+}
+.linku{
+  display: flex;
+    display: -ms-flexbox;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    list-style: none;
+    color: white;
+    font-weight:100;
+    margin: 0.2rem 0;
+}
+.psps{
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+.loladze{
+  text-align: center;
+  display: inline-block;
+}
+.jojo{
+  display:flex;
+  justify-content: space-evenly;
+  padding-top: 2%;
 }
